@@ -1,4 +1,4 @@
-package ua.training.View;
+package ua.training.view;
 
 public class View {
     public static final String STARTUP_INTRODUCTION =

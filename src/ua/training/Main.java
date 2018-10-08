@@ -1,8 +1,8 @@
 package ua.training;
 
-import ua.training.Controller.Controller;
-import ua.training.Model.Model;
-import ua.training.View.View;
+import ua.training.controller.Controller;
+import ua.training.model.Model;
+import ua.training.view.View;
 
 public class Main {
     public static void main(String[] args) {

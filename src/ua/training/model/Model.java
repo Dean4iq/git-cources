@@ -1,4 +1,4 @@
-package ua.training.Model;
+package ua.training.model;
 
 public class Model {
     private String firstWord;
