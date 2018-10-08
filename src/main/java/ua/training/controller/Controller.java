@@ -30,7 +30,7 @@ public class Controller {
         view.printMessage(View.INPUT_FIRST_WORD);
         String inputWord;
 
-        while (!(inputWord = scanner.next()).equals("Hello")) {
+        while (!(inputWord = scanner.next()).equalsIgnoreCase("Hello")) {
             view.printMessage(View.WRONG_INPUT_WORD);
         }
         return inputWord;
@@ -40,7 +40,7 @@ public class Controller {
         view.printMessage(View.INPUT_SECOND_WORD);
         String inputWord;
 
-        while (!(inputWord = scanner.next()).equals("world!")) {
+        while (!(inputWord = scanner.next()).equalsIgnoreCase("world!")) {
             view.printMessage(View.WRONG_INPUT_WORD);
         }
         return inputWord;
